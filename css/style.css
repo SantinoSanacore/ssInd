@@ -63,6 +63,14 @@
   font-size: 0.8em;
 }
 
+.nav-redes {
+  display: flex;
+  flex-direction: row;
+}
+.nav-redes li {
+  padding: 5px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -84,6 +92,53 @@ h3 {
   padding: 5px 10px;
   border-radius: 5px;
   font-weight: bolder;
+}
+
+.imagenPrincipal1 {
+  background-image: url(../img/argentina-campeon.png);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.imagenPrincipal1 .tituloImg1 {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  width: 70%;
+  margin: auto;
+  margin-top: 70vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.imagenPrincipal1 .tituloImg1 h2 {
+  font-size: medium;
+}
+
+.imagenPrincipal2 {
+  background-image: url(../img/messi-cristiano.png);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+.imagenPrincipal2 .tituloImg2 {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  width: 70%;
+  margin: auto;
+  margin-top: 70vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.imagenPrincipal2 .tituloImg2 h2 {
+  font-size: medium;
 }
 
 article {

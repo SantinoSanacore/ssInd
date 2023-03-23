@@ -1,3 +1,48 @@
+.imagenPrincipal1{
+    background-image:url(../img/argentina-campeon.png);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    .tituloImg1{
+        background-color: white;
+        border-radius: 10px;
+        padding: 5px;
+        width: 70%;
+        margin: auto;
+        margin-top: 70vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        h2{
+            font-size: medium;
+        }
+    }
+}
+.imagenPrincipal2{
+    background-image:url(../img/messi-cristiano.png);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    .tituloImg2{
+        background-color: white;
+        border-radius: 10px;
+        padding: 5px;
+        width: 70%;
+        margin: auto;
+        margin-top: 70vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        h2{
+            font-size: medium;
+        }
+    }
+}
 article {
 	img {
 		width: 230px;
